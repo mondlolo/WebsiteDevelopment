@@ -1,0 +1,108 @@
+
+ul {/* stling the unorder list in order to create the navigation bar*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li { /*styles the list items inside the unordered list*/
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child { /* handles the last item inside the unordered list... which is not necessary for the assignments, it's just a decoration*/
+    border-right: none;
+}
+
+li a {  /*positioning the items in the unorded list*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) { /*deals with hovering abobe the text when the item is clicked*/
+    background-color: #111;
+    text-decorator:underline;
+    color: #cc0000;
+    
+}
+
+
+
+.active {/*handles events in the that are acctive*/
+    background-color: #4CAF50;
+    color: cyan;
+}
+
+body {
+	/*background-color: #b7d1c4;
+	background-image: url("TabMount.jpg")*/
+	
+}
+
+
+}
+
+/*img {
+	max-width:100p%
+	max-height:100p%;
+	
+}*/
+img { /*handles image height and width*/
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
+table {border: 1px solid red} /*creates a border around the table*/
+
+td { /*background-color: #cc0000;*/
+	border: 1px #70b8ff solid; /*creates a border in the column of the table*/
+}/*#70b8ff*/
+
+#tpos { position: absolute; /*positoons the table*/
+    left: 100px;
+    top: 80px;
+    max-width: 700px;
+    max-height: 700px}
+
+#bgcolor{ background-color: #70b8ff;/*handles the backgroundand positioning of the table*/
+	  position: relative;
+	  top: 300px;
+	  left: 100px
+
+}
+    
+
+    
+html { /*handles the background image for the whole page*/
+  background: url("TabMount.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.textColor { position: relative; /*handles the position and colour of the response message whether a person is registered or nor*/
+	  top: 100px;
+	  left: 200px;
+	  height: 300px;
+	  width: 700px;
+	  color: white;
+	  }
+.shiftRight{ position: relative; /*shifts the picture to a lower position on the page*/
+	  top: 700px;
+	  left: 100px;
+	  border: 1px solid red;
+	  
+}
+
+#pos{position: absolute; #/*deals with the positioning of the table for events*/
+    left: 100px;
+    top: 80px;
+    }

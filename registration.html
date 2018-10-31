@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <LINK rel = "stylesheet" href = "style.css">
+</head>
+<body>
+  <ul > <!---navigation bar --->
+    <li><a href="myWebsite.html">Home</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a class="active"  href="registration.html">Registration</a></li>
+    <li style="float:right"><a href="#about">About</a>
+    </li>
+    
+  </ul>
+
+<form method="post" action="saveRegistration.cgi"> <!---creates a form and directs everything to a specific file to handle the events as the file name is specified--->
+<div>
+
+</div>
+
+<div id = "tpos">
+<table> <!---creates a table for the user to enter information about themselves as they register--->
+    <tr>
+            <th>REGISTRATION FORM</th>
+    </tr>
+    <tr>
+            <td class = "label"> <!---text labes for name... and also for the rest, the patten is continous and similar--->
+               Name: 
+            </td>
+                 
+            <td>
+                <INPUT type="text" name="Name"> <!---line edit for name... and also for the rest, the patten is continous--->
+            </td>
+        </tr>
+        
+        <tr>
+            <td class = "label">
+                Surname: 
+            </td>
+            <td>
+                <INPUT type="text" name="Surname">            
+            </td>
+        </tr>
+        
+         <tr>
+            <td class = "label">
+                Student Number:            
+            </td>
+            <td>
+                <INPUT type="text" name="StudentNumber">            
+            </td>
+        </tr>
+        
+         <tr>
+            <td class = "label">
+                Interests: 
+            </td>
+            <td>
+                <INPUT type="text" name="Interests">            
+            </td>
+          <tr>
+              <td class = "label">
+                Date: 
+            </td>
+                 
+            <td>
+                <INPUT type="text" name="Date">
+          </tr>
+        </tr>  
+        
+        <tr>
+            <td class = "label">
+                Submit: 
+            </td>
+            <td>
+                <INPUT type="submit" value="Submit">
+            
+            </td>
+        </tr>  
+    
+</table>
+<div>
+
+</form>
+ 
+
+</body>
+</html>
